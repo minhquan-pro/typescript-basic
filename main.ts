@@ -185,3 +185,40 @@ const postWithAuthor: IPost<IAuthor> = {
 		},
 	],
 };
+
+//--------------------------------------------------------------------------------------------------
+
+// 11. Enum
+enum Sizes {
+	S,
+	M,
+	L,
+	XL,
+}
+const size = Sizes.S; // size = 0
+
+enum Cities {
+	HN = "ha noi",
+	SG = "sai gon",
+	DN = "da nang",
+	PQ = "phu quoc",
+}
+const city = Cities.HN; // city = ha noi
+
+//--------------------------------------------------------------------------------------------------
+
+// 12. class
+class ClassPerson {
+	name: string;
+	age: number;
+
+	constructor(name: string, age: number) {
+		this.name = name;
+		this.age = age;
+	}
+
+	handle() {
+		this.name;
+	}
+}
+const bob = new ClassPerson("Bob", 23);
