@@ -96,7 +96,7 @@ type UserType2 = {
 
 //--------------------------------------------------------------------------------------------------
 
-// 8. Intersection type (Tính kế thừa)
+// 8. Intersection type (Tính kế thừa  của type)
 type Person = {
 	name: string;
 };
@@ -129,8 +129,7 @@ const user: IUser = {
 	age: 22,
 };
 
-// inheritance (Tính kế thừa)
-
+// inheritance (Tính kế thừa của interface)
 interface IUser {
 	name: string;
 	age: number;
@@ -157,7 +156,6 @@ const staff1: IStaff = {
 //--------------------------------------------------------------------------------------------------
 
 // 10. Generics
-
 interface IPost<T> {
 	id: number;
 	title: string;
