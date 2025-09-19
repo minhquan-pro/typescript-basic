@@ -2,8 +2,9 @@
 
 // 2. Type any
 let userName: any;
-userName: "Hello";
-userName: 12;
+userName = "Hello";
+userName = 12;
+
 
 //--------------------------------------------------------------------------------------------------
 
