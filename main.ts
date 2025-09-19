@@ -189,21 +189,21 @@ const postWithAuthor: IPost<IAuthor> = {
 //--------------------------------------------------------------------------------------------------
 
 // 11. Enum
-enum Sizes {
-	S,
-	M,
-	L,
-	XL,
+enum Cities1 {
+	HN, 
+	SG,
+	DN,
+	PQ, 
 }
-const size = Sizes.S; // size = 0
+const city1 = Cities1.HN; // city1 = 0
 
-enum Cities {
+enum Cities2 {
 	HN = "ha noi",
 	SG = "sai gon",
 	DN = "da nang",
 	PQ = "phu quoc",
 }
-const city = Cities.HN; // city = ha noi
+const city2 = Cities.HN; // city2 = ha noi
 
 //--------------------------------------------------------------------------------------------------
 
